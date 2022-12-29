@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form>
+  <script src="scripts/adder.js"></script>
+
+  <p>Selected course:</p>
+  <div>
+    <input type="radio" id="choise1"
+           name="contact" value="js">
+    <label for="choise1">JavaScript</label>
+
+    <input type="radio" id="choise2"
+           name="contact" value="html">
+    <label for="choise2">HTML</label>
+
+    <input type="radio" id="choise3"
+           name="contact" value="css">
+    <label for="choise3">CSS</label>
+  </div>
+
+  <br/>
+  <label for="Photo_url"><b>Photo URL</b></label>
+  <input type="text" id="Photo_url" placeholder="https://" name="photo">
+
+  <br/>
+  <br/>
+  <label for="Review_Text"><b>Review Text</b></label>
+  <input type="text" id="Review_Text" placeholder="I really wanna tell that..." name="text">
+
+  <br/>
+  <br/>
+  <div>
+    <button type="submit" onclick="addElement()">Submit</button>
+  </div>
+  <a href="reviews.html">Go back</a>
+</form>
+
+</body>
+</html>
